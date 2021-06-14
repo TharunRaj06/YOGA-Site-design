@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.color0 {
+  background-color: crimson;
+  height: 100vh;
+}
+.color0 h1 {
+  font-size: 5vh;
+  letter-spacing: 10px;
+  display: block;
+  text-align: center;
+  padding-top: 20%;
+}
+.color0 a {
+  color: black;
+  text-decoration: none;
+}
+.color1 {
+  background-color: orange;
+  height: 100vh;
+}
+.color1 nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  height: 5vh;
+}
+.color1 .logo h4 {
+  color: whitesmoke;
+}
+.color1 .logo h4:hover {
+  color: orange;
+  letter-spacing: 5px;
+  transition: 1s;
+  cursor: pointer;
+}
+.color1 nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+nav ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a:hover {
+  color: orange;
+  letter-spacing: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.color1 img {
+  height: 50%;
+  display: block;
+  float: right;
+  padding-right: 10%;
+  margin-top: 105px;
+}
+.color1 .welcome-note h1 {
+  font-size: 8em;
+  display: block;
+  float: left;
+  padding-left: 5%;
+  margin-top: 110px;
+}
+.color1 .welcome-note h2 {
+  font-size: 5em;
+  display: block;
+  float: left;
+  padding-left: 8%;
+  margin-top: 10px;
+}
+.color2 {
+  background-color: palegreen;
+  height: 100vh;
+}
+.color2 video {
+  height: 50vh;
+  width: 90vh;
+  display: block;
+  float: left;
+  padding-left: 5%;
+  margin-top: 12%;
+}
+.color2 p {
+  display: block;
+  width: 50%;
+  float: right;
+  padding-right: 10%;
+  margin-top: 20%;
+}
+.color2 p span {
+  font-weight: bolder;
+}
+.color3 {
+  background-color: brown;
+  height: 100vh;
+}
+.color3 video {
+  height: 80vh;
+  width: 90vh;
+  display: block;
+  float: right;
+  padding-right: 5%;
+  padding-top: 12%;
+}
+.color3 p span {
+  font-weight: bolder;
+}
+.color3 p {
+  display: block;
+  width: 50%;
+  float: left;
+  padding-left: 10%;
+  margin-top: 20%;
+}
+.color4 {
+  background-color: peru;
+  height: 100vh;
+}
+.color4 .container1 {
+  background-color: peru;
+  height: 40vh;
+  width: 40vh;
+  display: block;
+  float: left;
+  margin-left: 8%;
+  margin-top: 15%;
+}
+.color4 .container2 {
+  background-color: peru;
+  height: 40vh;
+  width: 40vh;
+  display: block;
+  float: left;
+  margin-top: 15%;
+  margin-left: 12%;
+}
+.color4 .container3 {
+  background-color: peru;
+  height: 40vh;
+  width: 40vh;
+  display: block;
+  float: left;
+  margin-top: 15%;
+  margin-left: 14%;
+}
+.color4 .container1 video {
+  height: 40vh;
+  width: 40vh;
+}
+.color4 .container2 video {
+  height: 40vh;
+  width: 40vh;
+}
+.color4 .container3 video {
+  height: 40vh;
+  width: 40vh;
+}
+.color4 .container1 h2 {
+  display: block;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.color4 .container2 h2 {
+  display: block;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.color4 .container3 h2 {
+  display: block;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.color4 .container1 h2:hover {
+  color: orange;
+  letter-spacing: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.color4 .container2 h2:hover {
+  color: skyblue;
+  letter-spacing: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.color4 .container3 h2:hover {
+  color: orangered;
+  letter-spacing: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.color5 {
+  background-color: royalblue;
+  height: 100vh;
+}
+.color5 img {
+  height: 50%;
+  position: absolute;
+  top: 550%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
